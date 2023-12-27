@@ -57,3 +57,14 @@
     transform: scale(1);
   }
 }
+@media (max-width: 450px) {
+  .button {
+    padding: 0.5rem 1.5rem;
+  }
+  .icon {
+    margin-right: -0.5rem;
+  }
+  .yourcart {
+    display: none;
+  }
+}
