@@ -24,7 +24,7 @@ const Cartbutton = (props) => {
       <span className={classes.icon}>
         <CartIcon />
       </span>
-      <span>Your Cart</span>
+      <span className={classes.yourcart}>Your Cart</span>
       <span className={classes.badge}>{totalitemamount}</span>
     </button>
   );
